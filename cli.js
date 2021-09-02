@@ -216,7 +216,7 @@ module.exports = (() => {
 
     // TODO: docs
     cli.printVersion = () => {
-        console.log( cli.getVersion() );
+        console.log('Customized jsdoc for Croquet - 1 Sept 2021');
 
         return Promise.resolve(0);
     };
